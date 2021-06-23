@@ -5,7 +5,7 @@
         html, body{
             margin: 0;
             border: 0;
-            font-size: 1rem;
+            font-size: 16px;
         }
         header{
             background-image:radial-gradient(gainsboro, black);
@@ -48,14 +48,16 @@
             /*font-family: 'Work Sans', sans-serif;*/
         }
         main{
+            max-width: 1200px;
             border-top: 1px solid rgb(134, 134, 134);
             border-bottom: 1px solid rgb(134, 134, 134);;
-            max-width: 1200px;
-            background-color: rgb(253, 253, 253);
+            background-color: rgb(253, 253, 253); 
+            text-align: justify;
+            line-height: 1.5rem;
             overflow: hidden;
             padding: 20px;
             margin: 30px auto;
-            line-height: 1.5rem;
+           
         }
         .botao-curtir{
             width: 25%;
