@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,300;1,400&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+        header{
+            background-image:radial-gradient(gainsboro, black);
+            background-position: center;
+            position: relative;
+            padding: 10px;
+            margin: 0;
+        }
+        header > h1{
+            margin: 1px 0 10px 0;
+            text-align: center;
+            color: white;
+        }
+        header > img{
+            display: block;
+            margin: auto;
+            object-position: center;
+            border-radius: 100px;
+            margin-bottom: 10px;
+        }
+        nav {
+            text-align: center;
+            padding: 2px;
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 15px;
+            color: white;
+            border-left: 1px solid black;
+            padding-left: .5rem;
+        }
+        nav> a:hover{
+            text-decoration: underline;
+            color:rgb(180, 137, 28);
+        }
+        .podcast{
+            margin-top: 30px;
+        }
+        body{
+            font-family: 'Work Sans', sans-serif;
+            margin: 0;
+        }
+        main{
+            border-top: 1px solid rgb(134, 134, 134);
+            border-bottom: 1px solid rgb(134, 134, 134);;
+            max-width: 1200px;
+            background-color: rgb(253, 253, 253);
+            overflow: hidden;
+            padding: 20px;
+            margin: 30px auto;
+            text-align: justify;
+            line-height: 1.5rem;
+        }
+        .botao-curtir{
+            width: 25%;
+            margin-left: 5%;
+        }
+        section > h1{
+            margin-bottom: 2px;
+        }
+        h1, h2, h3, h4{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+        }
+        p{
+            font-family: 'Mulish', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        a{
+            color: rgb(180, 137, 28);;
+        }
+        section > article{
+            display: inline-block;
+            height: 200px;
+            width: 300px; 
+            text-align: justify;
+            padding: 2px;
+            margin: 7px 10px;
+        }
+        article > picture img{
+            border-radius: 5px;
+            margin: 0 20px 10px 0;
+            float: left;
+            width: 300px;
+        }
+        .artigos-relacionados{
+            max-width: 1000px;
+            margin: 30px auto;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+        }
+        .artigos-relacionados h1, h3{
+           color: rgb(75, 75, 75);
+        }
+        .artigos-relacionados p{
+            padding: 2px;
+            font-size: .8rem;
+            color: rgb(36, 36, 36);
+        }
+       blockquote{
+            background-color: rgb(248, 247, 247); 
+            border-left: 3px solid rgb(27, 27, 27);
+            color: rgb(2, 2, 2);
+            padding: 5px;
+            font-style: oblique;
+        }
+        .social-media {
+            display: block;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .social-media a{
+            padding: 1rem;
+            text-decoration: none;   
+        }
+        .social-media i {
+            color: black;
+            transition: ease-in 0.2s;
+        }
+        .social-media i:hover {
+            color:rgb(180, 137, 28);
+        }
+        footer{
+            background-color: rgb(22, 22, 22);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            font-size: .8rem;
+            font-style: italic;
+        }
