@@ -95,7 +95,7 @@
             font-style: oblique;
             margin: 0 5px 0 32px;
         }
-        article > picture img{
+        .img-article{
             border-radius: 5px;
             margin: 0 20px 10px 0;
             float: left;
@@ -160,7 +160,7 @@
         }
 
         @media (max-width: 750px){
-            article > picture img{
+            .img-article{
                 display: block;
                 float: none;
                 margin: 5px auto 5px auto;
