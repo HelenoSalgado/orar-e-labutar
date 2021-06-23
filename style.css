@@ -18,7 +18,7 @@
             text-align: center;
             color: white;
         }
-        header > img{
+        .img-perfil{
             display: block;
             margin: auto;
             object-position: center;
