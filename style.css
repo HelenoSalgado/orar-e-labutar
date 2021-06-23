@@ -158,3 +158,11 @@
             font-size: .8rem;
             font-style: italic;
         }
+
+        @media (max-width: 750px){
+            article > picture img{
+                display: block;
+                float: none;
+                margin: 5px auto 5px auto;
+            }
+        }
