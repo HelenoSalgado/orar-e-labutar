@@ -18,7 +18,7 @@
             text-align: center;
             color: white;
         }
-        header > img{
+        .img-perfil img{
             display: block;
             margin: auto;
             object-position: center;
@@ -46,12 +46,14 @@
         body{
             font-family: 'Work Sans', sans-serif;
             font-size: 1.1rem;
+            line-height: 1.5;
         }
         main{
             max-width: 1200px;
             border-top: 1px solid rgb(134, 134, 134);
             border-bottom: 1px solid rgb(134, 134, 134);;
             background-color: rgb(253, 253, 253); 
+            color: rgb(51, 51, 51);
             text-align: justify;
             overflow: hidden;
             padding: 20px;
@@ -85,11 +87,34 @@
             padding: 2px;
             margin: 7px 10px;
         }
+        blockquote{
+           /*background-color: rgb(248, 247, 247);*/
+            border-left: 3px solid rgb(27, 27, 27);
+            color: black;
+            padding: 5px;
+            font-style: oblique;
+            margin: 0 5px 0 32px;
+        }
         article > picture img{
             border-radius: 5px;
             margin: 0 20px 10px 0;
             float: left;
             width: 300px;
+        }
+        article > footer{
+            background:#e9e8e8; 
+            background: -webkit-linear-gradient(to right, #e9e8e8, #fdfdfd);
+            background: linear-gradient(to right, #e9e8e8, #fdfdfd); 
+            border-radius: 3px;
+            color: black;
+            text-align: left;
+        }
+        cite > a{
+            color: black;
+            text-decoration: none;
+        }
+        cite >a:hover{
+            color:rgb(180, 137, 28);
         }
         .artigos-relacionados{
             max-width: 1000px;
@@ -105,13 +130,6 @@
             font-size: .8rem;
             line-height: normal;
             color: rgb(36, 36, 36);
-        }
-       blockquote{
-            background-color: rgb(248, 247, 247); 
-            border-left: 3px solid rgb(27, 27, 27);
-            color: rgb(2, 2, 2);
-            padding: 5px;
-            font-style: oblique;
         }
         .social-media {
             display: block;
