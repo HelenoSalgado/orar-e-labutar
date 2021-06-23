@@ -45,7 +45,7 @@
             margin-top: 30px;
         }
         body{
-            /*font-family: 'Work Sans', sans-serif;*/
+            font-family: 'Work Sans', sans-serif;
         }
         main{
             max-width: 1200px;
@@ -72,6 +72,7 @@
         }
         p{
             font-family: 'Mulish', sans-serif;
+            font-size: 1.3rem;
             font-weight: 400;
         }
         a{
