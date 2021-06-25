@@ -1,0 +1,15 @@
+/*-- CSS para dispositivos de tela pequena --*/
+
+@media (max-width: 650px){
+
+    html, body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        min-width: 375px;
+        overflow-x: hidden;
+    }
+    .img-perfil{
+        width: 150px;
+        height: 150px;
+    }

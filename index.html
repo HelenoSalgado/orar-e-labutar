@@ -9,6 +9,7 @@
     <meta name="author" content="Heleno Salgado">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt-br">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img-icon/licoes1.ico" type="image/icon">
     <title>Orar e Labutar</title>
@@ -16,7 +17,10 @@
 <body>
     <header>
         <h1>Orar e Labutar</h1>
-            <img class="img-perfil" src="img/licoes1.jpg" alt="Silhueta de uma pessoa orando ajoelhada">
+            <picture>
+                <source media="(max-width: 450px)" srcset="img/licoes1-mobile.jpg" type="image/jpeg">
+                <img class="img-perfil" src="img/licoes1.jpg" alt="Silhueta de uma pessoa orando ajoelhada">
+            </picture>
         <nav>
             <a href="sobre.html">Sobre</a>
             <a href="index.html">Pagina Inicial</a>
