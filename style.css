@@ -1,12 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @font-face {
+    font-family: Mulish;
+    src: url('fonts/static/Mulish-Regular.ttf');
+}
+@font-face {
     font-family: Courgette;
     src: url('fonts/courgette/Courgette-Regular.ttf');
 }
-@font-face {
-    font-family: Mulish;
-    src: url('fonts/static/Mulish-SemiBold.ttf');
-@font-face {
+@font-face{
     font-family: Work Sans;
     src: url('fonts/work-sans/static/WorkSans-Regular.ttf');
 }
@@ -19,7 +20,7 @@ html, body{
 :root {
     --color-main: rgb(53, 53, 53);
     --color-blockquote: rgb(73, 75, 75);
-    --font-title: 'Courgette', cursive;
+    --font-title: 'Courgette';
     --font-main: 'Mulish', sans-serif;
     --font-secudary: 'Work Sans', sans-serif;
 }
