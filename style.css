@@ -1,174 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,300;1,400&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
-        html, body{
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
+@font-face {
+    font-family: Courgette;
+    src: url('fonts/courgette/Courgette-Regular.ttf');
+}
+@font-face {
+    font-family: Mulish;
+    src: url('fonts/static/Mulish-SemiBold.ttf');
+@font-face {
+    font-family: Work Sans;
+    src: url('fonts/work-sans/static/WorkSans-Regular.ttf');
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
-        :root {
-            --color-main: rgb(53, 53, 53);
-            --color-blockquote: rgb(73, 75, 75);
-            --font-title: 'Courgette', cursive;
-            --font-main: 'Mulish', sans-serif;
-            --font-secudary: 'Work Sans', sans-serif;
-        }
-        header{
-            /*background-image:radial-gradient(gainsboro, black);*/
-            background-image: url('img/bible.jpg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            padding: 10px;
-            margin: 0;
-        }
-        header > h1{
-            /*background: linear-gradient(to right, rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0));*/
-            margin: 1px 0 10px 0;
-            text-align: center;
-            color: white;
-        }
-        .img-perfil{
-            display: block;
-            margin: auto;
-            object-position: center;
-            border-radius: 100px;
-            margin-bottom: 10px;
-        }
-        nav {
-            text-align: center;
-            padding: 2px;
-        }
-        nav > a{
-            text-decoration: none;
-            margin-right: 15px;
-            color: white;
-            border-left: 1px solid black;
-            padding-left: .5rem;
-        }
-        nav> a:hover{
-            text-decoration: underline;
-            color:rgb(180, 137, 28);
-        }
-        .podcast{
-            margin-top: 30px;
-        }
-        body{
-            font-family: var(--font-secudary);
-            font-size: 1.1rem;
-            line-height: 1.5;
-        }
-        main{
-            max-width: 1200px;
-            border-top: .5px solid rgb(238, 238, 238);
-            border-bottom: 1px solid rgb(134, 134, 134);;
-            background-color: rgb(253, 253, 253); 
-            color: var(--color-main);
-            text-align: justify;
-            overflow: hidden;
-            padding: 20px;
-            margin: 30px auto;
-        }
-        .botao-curtir{
-            width: 25%;
-            margin-left: 5%;
-        }
-        section > h1{
-            margin-bottom: 2px;
-        }
-        h1, h2, h3, h4{
-            font-family: var(--font-title);
-            text-align: center;
-        }
-        p{ 
-            font-family: var(--font-main);
-            font-weight: 400;
-            font-size: 1.1rem;
-            line-height: 1.6rem;
-        }
-        a{
-            color: rgb(180, 137, 28);;
-        }
-        section > article{
-            display: inline-block;
-            height: 200px;
-            width: 300px; 
-            text-align: justify;
-            padding: 2px;
-            margin: 7px 10px;
-        }
-        blockquote{
-           /*background-color: rgb(248, 247, 247);*/
-            border-left: 3px solid rgb(179, 158, 101);
-            color: var(--color-blockquote);
-            padding: 5px;
-            font-style: oblique;
-            margin: 0 5px 0 32px;
-        }
-        .img-article img{
-            display: block;
-            margin: 5px auto;
-            width: 300px;
-            max-height: 227px;
-            border-radius: 5px; 
-        }  
-        article > footer{
-            background:#e9e8e8; 
-            background: -webkit-linear-gradient(to right, #e9e8e8, #fdfdfd);
-            background: linear-gradient(to right, #e9e8e8, #fdfdfd); 
-            border-radius: 3px;
-            color: black;
-            text-align: left;
-        }
-        cite > a{
-            color: black;
-            text-decoration: none;
-        }
-        cite >a:hover{
-            color:rgb(180, 137, 28);
-        }
-        .artigos-relacionados{
-            max-width: 1000px;
-            margin: 30px auto;
-            border-bottom: 1px solid black;
-            padding-bottom: 10px;
-        }
-        .artigos-relacionados h1, h3{
-           color: rgb(75, 75, 75);
-        }
-        .artigos-relacionados p{
-            padding: 2px;
-            font-size: .8rem;
-            line-height: normal;
-            color: rgb(36, 36, 36);
-        }
-        .social-media {
-            display: block;
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .social-media a{
-            padding: 1rem;
-            text-decoration: none;   
-        }
-        .social-media i {
-            color: black;
-            transition: ease-in 0.2s;
-        }
-        .social-media i:hover {
-            color:rgb(180, 137, 28);
-        }
-        footer{
-            background-color: rgb(22, 22, 22);
-            color: white;
-            text-align: center;
-            padding: 2px; 
-        }
-        footer > p{
-            font-size: .8rem;
-            font-style: italic;
-        }
+:root {
+    --color-main: rgb(53, 53, 53);
+    --color-blockquote: rgb(73, 75, 75);
+    --font-title: 'Courgette', cursive;
+    --font-main: 'Mulish', sans-serif;
+    --font-secudary: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url('img/bible.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+}
+header > h1{
+    margin: 1px 0 10px 0;
+    text-align: center;
+    color: white;
+}
+.img-perfil{
+    display: block;
+    margin: auto;
+    object-position: center;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+nav {
+    text-align: center;
+    padding: 2px;
+}
+nav > a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    border-left: 1px solid black;
+    padding-left: .5rem;
+}
+nav> a:hover{
+    text-decoration: underline;
+    color:rgb(180, 137, 28);
+}
+.podcast{
+    margin-top: 30px;
+}
+body{
+    position: relative;
+    font-family: var(--font-secudary);
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+main{
+    max-width: 1200px;
+    border-top: .5px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(134, 134, 134);;
+    background-color: rgb(253, 253, 253); 
+    color: var(--color-main);
+    text-align: justify;
+    overflow: hidden;
+    padding: 20px;
+    margin: 30px auto 5px auto;
+}
+div.compartilhe{
+    max-width: 300px;
+    margin-left: 5.5%;
+}
+.compartilhe p{
+    margin: 0;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.compartilhe a{
+    margin-left: 5px;
+}
+section > h1{
+    margin-bottom: 2px;
+}
+h1, h2, h3, h4{
+    font-family: var(--font-title);
+    text-align: center;
+}
+p{ 
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: .5px;
+}
+a{
+    color: rgb(180, 137, 28);;
+}
+section > article{
+    display: inline-block;
+    height: 200px;
+    width: 300px; 
+    text-align: justify;
+    padding: 2px;
+    margin: 7px 10px;
+}
+blockquote{
+    border-left: 3px solid rgb(179, 158, 101);
+    color: var(--color-blockquote);
+    padding: 5px;
+    font-style: oblique;
+    margin: 0 5px 0 32px;
+}
+.img-article img{
+    display: block;
+    margin: 5px auto;
+    width: 300px;
+    max-height: 227px;
+    border-radius: 5px; 
+}  
+article > footer{
+    background:#e9e8e8; 
+    background: -webkit-linear-gradient(to right, #e9e8e8, #fdfdfd);
+    background: linear-gradient(to right, #e9e8e8, #fdfdfd); 
+    border-radius: 3px;
+    color: black;
+    text-align: left;
+}
+cite > a{
+    color: black;
+    text-decoration: none;
+}
+cite >a:hover{
+    color:rgb(180, 137, 28);
+}
+.artigos-relacionados{
+    max-width: 1000px;
+    margin: 30px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.artigos-relacionados h1, h3{
+    color: rgb(75, 75, 75);
+}
+.artigos-relacionados p{
+    padding: 2px;
+    font-size: .8rem;
+    line-height: normal;
+    color: rgb(36, 36, 36);
+}
+.social-media {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.social-media a{
+    padding: 1rem;
+    text-decoration: none;   
+}
+.social-media i {
+    color: black;
+    transition: ease-in 0.2s;
+}
+.social-media i:hover {
+    color:rgb(180, 137, 28);
+}
+footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 5px; 
+    height: auto;
+}
+footer >h5{
+    margin: 0;
+}
+footer > p{
+    font-size: .8rem;
+    font-style: italic;
+}
+#link-topo{
+    position: absolute;
+    right: 1rem;
+    bottom: 6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background: rgb(180, 137, 28);
+    box-shadow: .1rem .1rem .3rem rgba(58, 57, 57, 0.747);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
