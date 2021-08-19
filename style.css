@@ -45,16 +45,23 @@ header > h1{
     border-radius: 100px;
     margin-bottom: 10px;
 }
-nav {
-    text-align: center;
-    padding: 2px;
+.icone-menu, #check{
+    display: none;
 }
-nav > a{
-    text-decoration: none;
-    margin-right: 15px;
+nav{
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+}
+nav> a{
+    font-family: 'Mulish';
+    margin: 5px 10px 0 0;
+    font-size: 1rem;
     color: white;
-    border-left: 1px solid black;
-    padding-left: .5rem;
+    font-weight: 400;
+    border-left: 2px solid rgb(180, 137, 28);
+    padding-left: 7px;
+    text-decoration: none;
+    transition: .2s ease-in;
 }
 nav> a:hover{
     text-decoration: underline;
@@ -62,6 +69,11 @@ nav> a:hover{
 }
 .podcast{
     margin-top: 30px;
+}
+.buscador{
+    position: absolute;
+    right: 0;
+    width: 60%;
 }
 body{
     position: relative;
@@ -146,20 +158,76 @@ cite > a{
 cite >a:hover{
     color:rgb(180, 137, 28);
 }
-.artigos-relacionados{
+.a-r-bloco{ 
+    position: relative;
     max-width: 1000px;
+    height: auto;
+    padding: .7rem;
     margin: 30px auto;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(img/liberdade-p.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: transparent;
 }
-.artigos-relacionados h1, h3{
-    color: rgb(75, 75, 75);
+.a-r-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
 }
-.artigos-relacionados p{
+.a-r-bloco a{
+    font-family: 'Courgette';
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.a-r-background p{
+    font-family: 'Work Sans';
     padding: 2px;
     font-size: .8rem;
     line-height: normal;
-    color: rgb(36, 36, 36);
+    color: white;
+}
+.ler-mais{
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    background-color: rgba(27, 26, 26, 0.568);
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: .7rem;
+    padding: .3rem;
+   
+}
+.ler-mais:hover{
+    background-color: rgb(223, 222, 222);
+}
+.tags{
+    position: relative;
+    margin: 4rem auto;
+    width: 70%;
+    text-align: center;
+}
+.tags a {
+    display: inline-block;
+    font-family: 'Work Sans';
+    font-size: 1rem;
+    color: rgba(20, 20, 20, 0.815);
+    text-decoration: none;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 15px;
+    padding: 0 .3rem;
+    margin: .5rem;
+    background: rgb(233, 232, 232);
+    grid-row: auto;
+}
+.tags a:hover {
+    color: rgb(180, 137, 28);
+    background-color: white;
+    border: 1px solid rgba(231, 231, 231, 0.692);
+    transition: .3s ease-in-out;
 }
 .social-media {
     display: block;
@@ -192,6 +260,66 @@ footer > p{
     font-size: .8rem;
     font-style: italic;
 }
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 40px auto;
+    border-bottom: 1px solid white;  
+}
+.coluna{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.formulario h4{ 
+    color: rgb(233, 232, 232);
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-weight: 200;
+}
+.formulario form{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 10px;
+}
+::placeholder{
+    padding-left: 5px;
+    font-size: 1rem;
+    font-style: oblique;
+}
+.formulario input{
+    font-family: 'Work Sans';
+    font-style: oblique;
+    font-size: 1rem;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-left: 0;
+    background-color: rgb(233, 232, 232);
+}
+form button{
+    width: 90px;
+    font-family: 'Work Sans';
+    font-size: .7rem;
+    padding: .2rem;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+    margin-top: 10px;
+}
+button:hover{
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
 #link-topo{
     position: absolute;
     right: 1rem;
@@ -207,4 +335,5 @@ footer > p{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }

@@ -13,3 +13,44 @@
         width: 150px;
         height: 150px;
     }
+    .icone-menu{
+        margin: 7px 0 0 10px;
+        display: block !important;
+        cursor: pointer;
+        transition: ease-in .3s;
+    }
+    .icone-menu:hover{
+        color: rgb(180, 137, 28);
+    }
+    nav{
+        position: relative !important;
+        text-align: center !important;
+        background-color: rgba(34, 33, 33, 0.753) !important;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        border-radius: 10px;
+        transition: ease-in .5s;
+    }
+    nav a{
+        display: block !important;
+        border-left: none !important;
+    }
+    #check:checked ~ nav{
+        height: auto;
+        overflow: visible;
+        opacity: 1;
+    }
+    .coluna{
+        display: block;
+        width: 100% !important;
+    }
+    .formulario h4{
+        font-size: 1.7rem;
+        width: 90% !important;
+    }
+    .formulario form{
+        margin: 0 auto !important;
+        width: 90% !important;
+    }
+}
