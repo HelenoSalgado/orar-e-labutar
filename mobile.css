@@ -48,6 +48,7 @@
     }
     .grid-container {
         display: block !important;
+        grid-row-gap: 0 ! important;
       }
     .coluna{
         display: block;
