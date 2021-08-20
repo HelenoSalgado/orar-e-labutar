@@ -1,5 +1,10 @@
 /*-- CSS para dispositivos de tela pequena --*/
-
+@media (max-width: 850px){
+    .grid-container {
+        grid-template-columns: auto auto !important;
+        margin-top: 20px !important;
+      }
+}
 @media (max-width: 650px){
 
     html, body{
@@ -41,6 +46,10 @@
         overflow: visible;
         opacity: 1;
     }
+    .grid-container {
+        grid-template-columns: auto !important;
+        
+      }
     .coluna{
         display: block;
         width: 100% !important;
