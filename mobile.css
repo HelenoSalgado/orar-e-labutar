@@ -47,8 +47,7 @@
         opacity: 1;
     }
     .grid-container {
-        grid-template-columns: auto !important;
-        
+        display: block !important;
       }
     .coluna{
         display: block;
