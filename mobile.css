@@ -46,10 +46,6 @@
         overflow: visible;
         opacity: 1;
     }
-    .grid-container {
-        grid-template-columns: auto !important;
-        
-      }
     .coluna{
         display: block;
         width: 100% !important;
