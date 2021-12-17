@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíblia Online</title>
+    <meta name="description" content="Leia a Bíblia Online, pela tradução ACF - Almeida Corrigida Fiel." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Bíblia Online - Orar e Labutar"/>
+    <meta property="og:description" content="Leia a Bíblia Online, pela tradução ACF - Almeida Corrigida Fiel." />
+    <meta property="og:url" content="https://orarelabutar.com/biblia-online" />
+    <meta property="og:image" content="https://orarelabutar.com/img/bible.webP"/>
+    <meta property="og:site_name" content="Orar e Labutar" />
+    <link rel="canonical" href="https://orarelabutar.com/biblia-online"/>
+    <link rel="stylesheet" href="/css/style.css" as="style">
+    <link rel="stylesheet" href="/css/mobile.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="shortcut icon" href="/../img-icon/licoes1.ico" type="image/icon">
+</head>
+<body>
+<header id="header">
+<img class="img-perfil" src="/img/licoes1.jpg" alt="">
+<h1>Orar e Labutar</h1>
+<div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+</div>
+<aside class="sidebar">
+<div class="cor-de-frente-menu">
+        <nav>
+            <ul class="menu">
+                <li><a href="/pagina/sobre">Sobre</a></li>
+                <li><a href="/index.html">Pagina Inicial</a></li>
+                <li><a href="/pagina/artigos">Artigos</a></li>
+                <li><a href="/pagina/podcast">Podcast</a></li>
+                <li><a href="/pagina/pdfs-e-ebooks">PDFs</a></li>
+                <li><a href="/pagina/links-uteis">Links Úteis</a></li>
+                <li><a href="/biblia-online">Bíblia Online</a></li>
+                <li><a href="https://www.iguga.org/bible/audio">Bíblia Falada</a></li>
+                <li><a href="/dicionario-biblico">Dicionário Bíblico</a></li>
+                <!--<a href="https://landing.mailerlite.com/webforms/landing/r9o1f5">Assine</a>-->
+            </ul>
+        </nav>
+        <div class="menu-social-media">
+            <a href="https://www.youtube.com/channel/UCyKsH56m8wpYdgCVHeyjwiA"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/licoes1"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/orarelabutar/"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+    </aside>
+</header>
+    <main>
+    <div id="iGugaBibleContainer"><a href="https://www.iguga.org">Bíblia Online iGuga</a></div>
+<script type="text/javascript" src="https://www.iguga.org/js/igpostmessage.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+    window.onload = function()
+    {
+        var iGugaBibleContainer = document.getElementById("iGugaBibleContainer");
+         
+        if (typeof iGugaBibleContainer !== "undefined" && iGugaBibleContainer !== null) {
+             
+            /* Link da Bíblia Online iGuga Personalizada utilizando HTTPS */
+            var iGugaBibleCustomLink = 'https://www.iguga.org/bible/searchFrame/ID/70aee99d9e9dfa630d92390470431265';
+      
+            var iGugaBibleFrameSource = iGugaBibleCustomLink + '?fromUrl=' + encodeURIComponent(document.location.href);
+             
+            iGugaBibleContainer.innerHTML = '<iframe id="iGugaBibleFrame" src="' + iGugaBibleFrameSource + '" style="height: 1000px; width: 100%;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>';
+        }
+    }
+    igPostMessage.receiveMessage(function(event)
+    {
+        if ((!isNaN(event.data)) && (event.data > 0))
+        {
+            var iGugaBibleFrame = document.getElementById("iGugaBibleFrame");
+             
+            if (typeof iGugaBibleFrame !== "undefined" && iGugaBibleFrame !== null) {
+                iGugaBibleFrame.style.height = '100%';
+                iGugaBibleContainer.style.height = event.data + 'px';
+            }
+        }
+    }, 'https://www.iguga.org');
+/*]]>*/
+</script>
+    </main>
+    <section>
+        <h3>Posts recentes</h3>
+<div class="grid-container">
+ <div>
+   <img src="/../img/liberdade.WebP" alt="">
+    <div class="text-artigo">
+    <h1>Sede Santos</h1>
+    <p>Sendo libertos do poderio do pecado pelo precioso sangue de Cristo, somos agora feitos novas criaturas Nele, criados para boas obras (Ef 2.8-10). É—nos dito não só que fomos absolvidos [..]</p>
+    <a href="http://orarelabutar.com/post/sede-santos">Leia Mais</a>
+    </div>
+  </div>
+  <div>
+   <img src="/../img/aprender-e-meditar.WebP" alt="">
+    <div class="text-artigo">
+    <h1>Sobre o Modo de Aprender e Meditar</h1>
+    <p>A humildade é o princípio do aprendizado, e sobre ela, muita coisa tendo sido escrita, as três seguintes, de modo principal, dizem respeito ao estudante [..]</p>
+    <a href="http://orarelabutar.com/post/aprender-e-meditar">Leia Mais</a>
+    </div>
+  </div>
+   <div>
+    <img src="/../img/eugene-peterson.WebP" alt="">
+     <div class="text-artigo">
+     <h1>Eugene Peterson: um pastor subversivo</h1>
+     <p>Nascido em solo norte-americano, em 6 de novembro de 1932 – e falecido numa segunda-feira (o “dia de descanso” do pastor), 22 de outubro de 2018, aos 85 anos – Eugene Peterson [..]</p>
+     <a href="http://orarelabutar.com/post/eugene-peterson">Leia Mais</a>
+     </div>
+  </div>
+  <div>
+    <img src="/../img/despertar.WebP" alt="">
+     <div class="text-artigo">
+     <h1>DESPERTAR</h1>
+     <p>GRANDE NÚMERO DE PESSOAS não se preocupam com as coisas eternas. Elas se preocupam mais com seus cães e gatos do que com suas almas. É uma grande misericórdia sermos levados a pensar[..]</p>
+     <a href="/post/despertar">Leia Mais</a>
+     </div>
+  </div>
+</div>
+<div class="tags">
+<h4>Etiquetas</h4>
+<a href="http://orarelabutar.com/tag/pedagogia-vitorina">Pedagogia Vitorina</a>
+<a href="http://orarelabutar.com/tag/santificacao/">Santificação</a>
+<a href="http://orarelabutar.com/tag/biografias/">Biografias</a>
+<a href="http://orarelabutar.com/tag/manuscritologia/">Manuscritologia</a>
+</div>
+</section>
+<section class="autores">
+  <h4>Autores</h4>
+  <em style="display: block; text-align: center; color: wheat; width: 60%; margin: 0 auto; background-color: red;">Em desenvolvimento &otimes;</em>
+  
+  <div class="slide">
+  <div class="meuSlide tap">
+        <img src="/img/autores/John_Wesley_by_George_Romney.jpg">
+  </div>
+  <div class="meuSlide tap">
+        <img src="/img/autores/John_Calvin.jpg">
+  </div>
+  <div class="meuSlide tap">
+        <img src="/img/autores/Jonathan_Edwards.jpg">
+  </div>
+  <div class="meuSlide tap">
+        <img src="/img/autores/Martin_Luther.jpg">
+  </div>
+  <div class="meuSlide tap">
+        <img src="/img/autores/387px-John_Owen_by_John_Greenhill.jpg">
+  </div>
+  <div class="meuSlide tap">
+        <img src="/img/autores/John_Wesley_by_George_Romney.jpg">
+  </div>
+  </div>
+  <div class="pontos">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>  
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>   
+</div>
+</section>
+<footer>
+<div class="social-media">
+    <a href="https://www.facebook.com/licoes1"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/orarelabutar/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCyKsH56m8wpYdgCVHeyjwiA"><i class="fab fa-youtube"></i></a>
+</div>
+<a href="#" id="link-topo"><i class="fas fa-arrow-up"></i></a>
+<p>&copy 2020-2021 Orar e Labutar | Desenvolvido por SALOPWEB</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/menu.js"></script>
+<script src="/js/slide.js"></script>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></noscript>
+<script async src="//static.getclicky.com/101330379.js"></script>
+</body>
+</html>

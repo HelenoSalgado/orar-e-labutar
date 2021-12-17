@@ -17,6 +17,7 @@ var slideIndex = 0;
       dots[slideIndex-1].className += " acao";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
+    
 //Habilita Scrool no elemento autores
 
     document.querySelector("slide")
@@ -52,12 +53,4 @@ var slideIndex = 0;
 
     slider.addEventListener('mouseleave', () => {
       window.removeEventListener(wheelEvent, preventDefault, wheelOpt);
-    })
-
-    slider.addEventListener('wheel', (event) => {
-      if (event.deltaY > 0) {
-        slider.scrollLeft += 300;
-      } else {
-        slider.scrollLeft -= 300;
-      }
     })

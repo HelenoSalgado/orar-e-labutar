@@ -1,0 +1,88 @@
+.a-r-bloco-peterson{ 
+    position: relative;
+    max-width: 1000px;
+    height: auto;
+    padding: .7rem;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(/img/eugene-peterson.WebP);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.a-r-bloco-aprender{ 
+    position: relative;
+    max-width: 1000px;
+    height: auto;
+    padding: .7rem;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(/img/aprender-e-meditar.WebP);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    }
+.a-r-background-aprender{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
+}
+.a-r-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
+}
+.a-r-bloco-aprender a{
+    font-family: 'acme', sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.a-r-bloco-peterson a{
+    font-family: 'acme', sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.a-r-background-aprender p{
+    padding: 2px;
+    font-size: .8rem;
+    line-height: normal;
+    color: white;
+}
+.a-r-background p{
+    padding: 2px;
+    font-size: .8rem;
+    line-height: normal;
+    color: white;
+}
+.ler-mais-aprender{
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    background-color: rgba(27, 26, 26, 0.568);
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: .7rem;
+    padding: .3rem;
+   
+}
+.ler-mais{
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    background-color: rgba(27, 26, 26, 0.568);
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: .7rem;
+    padding: .3rem;
+   
+}
+.ler-mais-aprender:hover{
+    background-color: rgb(223, 222, 222);
+}
+.ler-mais:hover{
+    background-color: rgb(223, 222, 222);
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+
+<title>Orar e Labutar</title>
+<link>http://orarelabutar.com</link>
+<description>O estudo diligente da Palavra de Deus, sob oração, deve ser o alimento diário de todo cristão dedicado. Eis aqui este site se proprôe a ajudá-lo nessa caminhada.</description>
+<language/>
+
+<item>
+<title>
+<![CDATA[ PODCAST: Aqui está uma série de podcast que fala sobre a natureza e a centralidade do coração. ]]>
+</title>
+<link>
+<![CDATA[ https://orarelabutar.com/pagina/podcast ]]>
+</link>
+<description>
+<![CDATA[ <img src='https://orarelabutar.com/img/podcast.jpg' /> Confira!]]>
+</description>
+</item>
+
+<item>
+<title>
+<![CDATA[ PDFs e Ebooks: Venha conferir essa coleção de livros digitais sobre a fé cristã e a vida devocional. ]]>
+</title>
+<link>
+<![CDATA[ https://orarelabutar.com/pagina/pdfs-e-ebooks ]]>
+</link>
+<description>
+<![CDATA[ <img src='https://orarelabutar.com/img/pdfs-e-ebooks.jpg' /> ]]>
+</description>
+</item>
+
+</channel>
+</rss>

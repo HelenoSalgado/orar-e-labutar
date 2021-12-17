@@ -3,13 +3,13 @@ var hamburguer = document.querySelector(".hamburguer");
     document.querySelector("body").classList.toggle("show-menu");
 });
 
-var lastScrollTop = 20;
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > lastScrollTop || st === 20){
-     $('#header').slideUp("fast");
-   } else {
-     $('#header').slideDown("fast");
-   }
-   lastScrollTop = st;
-});
+// var lastScrollTop = 30;
+// $(window).scroll(function(event){
+//   var st = $(this).scrollTop();
+//   if (st > lastScrollTop || st === 30){
+//     $('#header').slideUp("fast");
+//   } else {
+//     $('#header').slideDown("fast");
+//   }
+//   lastScrollTop = st;
+// });

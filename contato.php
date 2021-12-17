@@ -2,9 +2,9 @@
 if(isset($_POST['submit']))
 {
     include_once('config.php');
-    $nome = ($_POST['Nome']);
-    $email = ($_POST['Email']);
+    $nome = ($_POST['nome']);
+    $email = ($_POST['email']);
 
-    $result = mysqli_query($conexao, "INSERT INTO contatos VALUES ('$nome', '$email')")
+    $result = mysqli_query($conexao, "INSERT INTO pessoas(nome, email) VALUES ('$nome', '$email')");
 }
 ?>
