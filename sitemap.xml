@@ -1,43 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://orarelabutar.com</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/pagina/sobre</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/pagina/pdfs-e-ebooks</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/pagina/podcast/</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/pagina/links-uteis/</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/post/sede-santos/</loc>
-    <lastmod>2021-07-25T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/tag/santificacao/</loc>
-    <lastmod>2021-08-15T04:15:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/tag/biografias/</loc>
-    <lastmod>2021-08-17</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/post/aprender-e-meditar/</loc>
-    <lastmod>2021-08-17</lastmod>
-  </url>
-  <url>
-    <loc>https://orarelabutar.com/post/eugene-peterson/</loc>
-    <lastmod>2021-08-17</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>https://orarelabutar.com/pagina/sobre</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/index.html</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/pagina/artigos</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/pagina/podcast</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/pagina/pdfs-e-ebooks</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/pagina/links-uteis</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/biblia-online</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/dicionario-biblico</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/sede-santos</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/aprender-e-meditar</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/eugene-peterson</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/despertar</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/tag/pedagogia-vitorina</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/tag/santificacao/</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/tag/biografias/</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/tag/manuscritologia/</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/somente-jesus</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/fe-na-pessoa-do-senhor-jesus</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/fe-muito-simples</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/aprender-e-meditar/</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/sede-santos/</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
+<url>
+  <loc>https://orarelabutar.com/post/a-canonicidade-do-novo-testamento</loc>
+  <lastmod>2022-02-28</lastmod>
+</url>
 </urlset>

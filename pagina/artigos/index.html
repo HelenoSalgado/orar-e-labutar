@@ -53,7 +53,7 @@
     </aside>
 </header>
 <div class="buscador">
-<section style="margin: 0 auto; width: max-content;" cellpadding=0 cellspacing=0>
+<section style="margin: 0 auto; width: max-content; height:;" cellpadding=0 cellspacing=0>
       <div>
             <div>
                   <form  action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
@@ -130,7 +130,6 @@
 </main>
 <section class="autores">
   <h4>Autores</h4>
-  <em style="display: block; text-align: center; color: wheat; width: 60%; margin: 0 auto; background-color: red;">Em desenvolvimento &otimes;</em>
   
   <div class="slide">
   <div class="meuSlide tap">
@@ -152,19 +151,20 @@
         <img src="/img/autores/John_Wesley_by_George_Romney.jpg">
   </div>
   </div>
-  <div class="pontos">
+  <!-- <div class="pontos">
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span>  
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span>   
-</div>
+</div> -->
 </section>
 <footer>
 <div class="formulario">
     <div><h4>Seja avisado quando um conteúdo novo for publicado.</h4></div>
     <div><form action="contato.php" method="POST">
+    <input type="hidden" name="_next" value="https://orarelabutar.com/enviado.html">
     <p><input type="text" name="nome" id="Cnome" size="30" maxlength="50" placeholder="Nome Completo" required></p>
     <p><input type="email" name="email" id="Email" size="20" maxlength="50" placeholder="Digite seu e-mail" required></p>
     <button class"btn" type="submit" name="submit">Inscreva-se</button>

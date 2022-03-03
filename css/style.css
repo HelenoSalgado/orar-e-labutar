@@ -26,12 +26,31 @@
          url('../fonts/acme-v11-latin-regular.svg#Acme') format('svg'); /* Legacy iOS */
     font-display: swap;
   }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(43, 42, 41) rgb(241, 241, 241);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(241, 241, 241);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(43, 42, 41);
+    border-radius: 20px;
+    border: 1px solid rgb(241, 241, 241);
+  }
   html{
     -webkit-overflow-scrolling: touch;
      scroll-behavior: smooth;
   }
   body{
-  margin: 0 ! important; padding: 0; border: 0; font-size: 16px; font-family:'Work Sans', sans-serif; position: relative;
+  margin: 0; padding: 0; border: 0; font-size: 16px; font-family:'Work Sans', sans-serif; position: relative; height: 100vh;
   }
   :root{
 --color-blockquote: rgb(73, 75, 75);
@@ -101,8 +120,10 @@
       margin: 0 0 .7rem 0;
   }
   .menu li a{
-      color: rgb(238, 238, 238);
+      color: rgb(180, 137, 28);
+      text-shadow: .1px .1px .5px rgba(255, 255, 255, 0.678);
       transition: .2s ease-in;
+      font-weight: bold;
   }
   .menu-social-media{
       position: absolute;
@@ -129,7 +150,7 @@
      border-top: 1px solid rgb(238, 238, 238);
      border-bottom: 1px solid rgb(134, 134, 134);
      background-color: rgb(253, 253, 253); 
-     color: rgb(53, 53, 53);
+     color: rgb(44, 43, 43);
      text-align: justify;
      padding: 15px;
      margin: 50px auto 0 auto;
@@ -148,7 +169,6 @@
      margin-bottom: 2px;
   }
   h1, h2, h3, h4{
-     font-family: 'acme', sans-serif;
      text-align: center;
   }
   h4{
@@ -156,8 +176,6 @@
   }
   p{
      font-weight: 400;
-     line-height: 1.6rem;
-     letter-spacing: .5px;
   }
   a{
      color: rgb(180, 137, 28);
@@ -194,10 +212,15 @@
      background: linear-gradient(to right, #e9e8e8, #fdfdfd); 
      border-radius: 3px;
      color: black;
+     overflow-y: hidden;
   }
   article .referencias p{
       margin-left: .3rem;
       text-align: left;
+  }
+  .referencias::-webkit-scrollbar {
+    height: 0px; 
+    opacity: 0
   }
   cite > a{
      color: black;
@@ -228,6 +251,7 @@
       max-width: 1200px;
       margin: 50px auto;
       justify-content: center; 
+      border-bottom: 1px double rgba(0, 0, 0, 0.616);
     }
   .grid-container div{
       position: relative;
@@ -252,6 +276,7 @@
       padding: .3rem;
       font-size: 1rem;
       line-height: 1.1rem;
+      color: rgb(53, 53, 53);
   }
   .text-artigo h1{
       padding: .3rem;
@@ -311,24 +336,37 @@
   .text-artigo a:hover, .ler-mais:hover{
       background-color: rgb(223, 222, 222);
   }
+  /* Conteúdo dinâmico */
+  .juicer-feed{
+      border: 1px solid rgba(0, 0, 0, 0.418);
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+  }
+  .juicer-feed.modern .j-text{
+      padding: 0 20px !important;
+  }
+  .juicer-feed .j-meta a.j-social{
+      font-size: .8rem !important;
+  }
+  
+  /* Fim */
   .tags{
       position: relative;
       margin: 4rem auto;
-      max-width: 1200px;
+      max-width: 500px;
       text-align: center;
       padding-bottom: 10px;
-      border-bottom: 1px solid rgb(134, 134, 134);
   }
   .tags a {
       display: inline-block;
       font: 1rem 'Work Sans';
       color: rgba(20, 20, 20, 0.815);
       text-decoration: none;
-      border: 1px solid rgb(209, 209, 209);
-      border-radius: 15px;
+      border-radius: 5px;
       padding: 0 .3rem;
       margin: .5rem;
-      background: rgb(233, 232, 232);
+      background-color: rgb(233, 232, 232);
+      box-shadow: 1px 1px  7px rgba(0, 0, 0, 0.534);
   }
   .tags a:hover {
       color: rgb(180, 137, 28);
@@ -392,16 +430,16 @@
     height: 180px;
   }
   .slide::-webkit-scrollbar {
-    height: 7px; 
+    height: 0px; 
     opacity: 0
   }
   
   .slide::-webkit-scrollbar-track {
-    background: rgba(63, 36, 36, 0);
+    background: transparent;
   }
   
   .slide::-webkit-scrollbar-thumb {
-    background-color: rgba(216, 181, 86, 0);   
+    background-color: transparent;   
     border-radius: 50%;  
   }
   .pontos{
@@ -442,7 +480,6 @@
      background-color: rgb(22, 22, 22);
      color: white;
      height: auto;
-     margin-bottom: 0;
   }
   footer .social-media{
       margin: 1rem 0;
@@ -460,11 +497,15 @@
  footer .social-media a:hover{
       color: rgb(180, 137, 28);
   }
-
   footer > p{
      text-align: center;
      font-style: italic;
      font-size: .8rem;
+     padding-bottom: .5rem;
+  }
+  footer p > a{
+      text-decoration: none;
+      color: white;
   }
   .formulario{
       display: flex;
@@ -477,10 +518,21 @@
   .formulario div{ 
       margin: auto;
       max-width: 400px;
+     
   }
   .formulario div h4{
       font-size: 1.4rem;
-      text-align: center;
+      text-align: center; 
+      color: #fff;
+      animation: lumiar 2s ease-in-out infinite;
+  }
+   @keyframes lumiar {
+      from{
+          color: #fff;
+      }
+      to{
+          color: rgb(197, 197, 197);
+      }
   }
   ::placeholder{
       padding-left: 5px;
@@ -492,6 +544,14 @@
       height: 1.7rem;
       border-radius: 5px;
       background-color: rgb(233, 232, 232);
+      
+  }
+  .formulario button{
+      border-radius: 7px;
+      box-shadow: 1px 1px 3px black;
+      height: 2rem;
+      font-weight: 600;
+      color: rgba(167, 105, 13, 0.808);
   }
   .btn{
       font: 1rem 'acme', sans-serif;
